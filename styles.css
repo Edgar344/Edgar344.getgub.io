@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text for readability */
+    font-family: 'Roboto', sans-serif; /* Use a clean font */
+}
+
+header {
+    background-color: #4682b4; /* Steel blue header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #2f4f4f; /* Dark slate gray footer */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

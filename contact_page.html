@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+ 
+<head>
+    <title>Contact & Survey Form</title>
+</head>
+ 
+ 
+<body>
+    <!-- Contact Form Section -->
+    <h2>Get in Touch!</h2>
+    <p>We'd love to hear from you. Please fill out the form below to get in touch with us.</p>
+    
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Contact Details</legend>
+            
+            <label>Name:<br />
+                <input type="text" name="name" required />
+            </label><br />
+            
+            <label>Email:<br />
+                <input type="email" name="email" required />
+            </label><br />
+            
+            <label>Subject:<br />
+                <select name="subject">
+                    <option value="general_inquiry">General Inquiry</option>
+                    <option value="project_collaboration">Project Collaboration</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+            </label><br />
+            
+            <label>Message:<br />
+                <textarea name="message" cols="20" rows="4" required></textarea>
+            </label><br />
+            
+            <input type="submit" value="Send Message" />
+            <input type="reset" value="Clear Form" />
+        </fieldset>
+    </form>
+ 
+ 
+    <!-- Survey Section -->
+    <h2>Quick Survey</h2>
+    <p>We value your feedback! Please take a moment to answer these questions about your experience with the portfolio.</p>
+ 
+ 
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Survey Questions</legend>
+            
+            <label>How did you find my portfolio?:<br />
+                <select name="find_us">
+                    <option value="google_search">Google Search</option>
+                    <option value="social_media">Social Media</option>
+                    <option value="referral">Referral</option>
+                    <option value="other">Other</option>
+                </select>
+            </label><br />
+            
+            <p>Rate your overall experience on my site:</p>
+            <label>
+                <input type="radio" name="experience" value="1" required /> 1
+            </label>
+            <label>
+                <input type="radio" name="experience" value="2" /> 2
+            </label>
+            <label>
+                <input type="radio" name="experience" value="3" /> 3
+            </label>
+            <label>
+                <input type="radio" name="experience" value="4" /> 4
+            </label>
+            <label>
+                <input type="radio" name="experience" value="5" /> 5
+            </label><br />
+            
+            <label>Any additional comments?:<br />
+                <textarea name="comments" cols="20" rows="4"></textarea>
+            </label><br />
+            
+            <input type="submit" value="Submit Survey" />
+            <input type="reset" value="Reset Survey" />
+        </fieldset>
+    </form>
+</body>
+ 
+ 
+</html>
